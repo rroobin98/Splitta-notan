@@ -1,0 +1,47 @@
+body{
+    background-image: url("img/bg.jpg");
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.37);
+    width: 50%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    
+}
+
+#split-bill-form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+}
+
+#result{
+    color: rgba(164, 255, 59, 0.719);
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    font-size: large;
+
+}
+
+#calculate-button{
+    margin-top: 5%;
+    color: white;
+    background-color: rgba(164, 255, 59, 0.719);
+    height: 50px;
+    font-size: large;
+}
+
+h1{
+    margin: auto;
+    color: rgba(164, 255, 59, 0.719);
+}
